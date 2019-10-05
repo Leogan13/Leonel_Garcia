@@ -1,0 +1,75 @@
+
+i{
+  color: white;
+
+  
+}
+.social-icons {
+  padding: 0.50rem 0 0.50rem 0;
+  font-size: 2rem;
+  color:white;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.5rem;
+
+  
+  }
+
+  &.text3{
+    animation: animationText 2s 1;
+  }
+  
+  @keyframes animationText{
+    0%{
+      margin-top: 150px;
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }
+   
+  }
+
+  a {
+    padding: 0 0.625rem;
+ 
+
+    &.devto svg {
+      margin-bottom: -0.25rem;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+  }
+
+  &.animate-icons {
+    a {
+      display: inline-block;
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      
+      &:hover,
+      &:focus,
+      &:active {
+        animation-name: icon-wobble;
+        animation-duration: 0.75s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+      }
+    }
+  }
+
+  @keyframes icon-wobble {
+    25% {
+      transform: translateY(-8px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    75% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}

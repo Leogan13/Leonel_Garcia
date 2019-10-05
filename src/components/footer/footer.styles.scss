@@ -1,0 +1,28 @@
+
+
+
+footer {
+   
+    background: rgb(68, 68, 68);
+    color: #f4cccc; 
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2% 0 2%;
+
+    
+}
+
+
+.signature{
+    flex: 1;
+    font-size: .8em;
+    font-weight: bold;
+
+    @media only screen and (max-width: 768px){
+        font-size: .5em;
+        }
+}
