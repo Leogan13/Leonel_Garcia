@@ -18,14 +18,12 @@ class Directory extends React.Component {
           title: 'Crwn-clothing',
           imageUrl: Project1,
           id: 1,
-          linkUrl: 'hats',
           description: 'Massive E-commerce app built with React, Redux, Firebase and more.'
         },
         {
           title: 'Smart-brain',
           imageUrl: Project2,
-          id: 2,
-          linkUrl: '',
+          id: 2,  
           description: 'App that implements an API to recognize faces in an image, built with React, Redux, Node and more. '
         }
         

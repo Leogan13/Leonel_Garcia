@@ -2,48 +2,86 @@
 .about-page {
   
 
-  padding-top:5%;
-  padding-bottom: 5%;
+  padding:0.3rem;
   display: flex;
-	flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(33, 37, 41, 1);
-  
-  
+  background: rgba(207, 190, 190, 0.9);
  
-  h1 {
+  
+
+  @media only screen and (max-width: 768px){
+     
+    flex-direction: column;
+    padding:0.2rem;
+    }
+  
+  .fa-react{
+    color: blue;
+  }
+
+  .fa-css3{
+    color: blue;
+  }
+
+  .fa-html5{
+    color: orange;
+  }
+
+  .fa-node{
+    color: green;
+  }
+  .fa-js{
+    color: rgb(204, 204, 20);
+  }
+  .fa-sass{
+    color: rgb(197, 176, 179);
+  }
+
+  .fa-npm{
+    color:red;
+  }
+
+  .fa-stripe{
+    color:blue;
+  }
+
+
+  .content-gridp {
     
-    font-size: 3rem;
-    color:rgb(68, 68, 68);
-    margin: 5% 0 0 0;
+   
+    margin: 0 0rem;
+    background: rgba(255,255,255,0.9);
+    border: 5px solid whitesmoke;
+    padding: 1% 5%;
+    box-sizing: border-box;
+   
+    border-radius: 10px;
+    align-self: stretch;
 
     @media only screen and (max-width: 768px){
      
-      font-size: 2rem;
+      margin:10px 0;
       }
+   
+    h1 {
+    
+      font-size: 3rem;
+      color:rgb(68, 68, 68);
+      
+  
+      @media only screen and (max-width: 768px){
+       
+        font-size: 2rem;
+        }
+    }
+    
+   
+
+  
   }
 
   
-  .content-grid {
-    
-    flex: auto;
-    margin: 0 10%;
-    background: rgba(255,255,255,0.8);
-    
-    box-shadow: 15px 15px 50px 4px;
-    padding: 1% 5%;
-   
-    box-sizing: border-box;
-    border: 3px groove white;
-    
-   
-
-    @media only screen and (max-width: 768px){
-        margin: 1rem 2rem;
-      }
-  }
-
   .about-wrapper {
     
   
@@ -51,23 +89,91 @@
       font-size: 0.875rem;
       
       p {
-        line-height: 1.5;
+        line-height: 1.8rem;
         display: block;
         color: black;
-        padding: 2rem 0;
+        padding: 1rem 0;
         font-size: 1.2rem;
           @media only screen and (max-width: 768px){
           padding: 0.5rem 0;
           font-size: 0.8rem;
-          
-          
           }
 
-      
       }
-
-    
     }
+
   }
 
+  
+
+  .content-grids {
+    
+    
+    
+    background: rgba(255,255,255,0.9);
+    border: 5px solid whitesmoke;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    margin-left: 0.3rem;
+   
+    border-radius: 10px;
+    align-self: stretch;
+
+    
+    @media only screen and (max-width: 768px){
+       margin:0;
+      
+      }
+ 
+
+    h1{
+      color:rgb(241, 127, 26);
+    
+      margin: 0.5rem 1rem;
+      text-align: center;
+      font-size: 3rem;
+      
+      @media only screen and (max-width: 768px){
+       
+        font-size: 2rem;
+        }
+    }
+
+    
+    
+      .skills-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+      
+
+        
+        
+        i{
+          padding: 1rem 1rem;
+          width: 75px;
+          height: 75px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: transform 0.4s; 
+          transform: perspective(1px) translateZ(0);
+          
+          &:hover,
+          &:focus,
+          &:active {
+            transform: scale(1.1);
+            
+          }
+          
+        }
+
+      
+
+         
+        
+    
+      }
+  }
 }

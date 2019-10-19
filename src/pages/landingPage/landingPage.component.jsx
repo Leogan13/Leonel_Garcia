@@ -5,7 +5,6 @@ import { ReactComponent as Linkedin } from '../../components/utils/svg/linkedin.
 import { ReactComponent as Github } from '../../components/utils/svg/github-logo.svg';
 
 
-
 const LandingPage = () =>{
 
     return (

@@ -5,6 +5,9 @@ import './App.css';
 import AboutPage from './pages/AboutPage/aboutPage.component'
 import Directory from './components/directory/directory.component'
 import Footer from './components/footer/footer.component'
+import DenseAppBar from './components/testcomp/navbart'
+
+
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.styles.scss';
 import SocialIcons from '../SocialIcons/SocialIcons'
+import Button from '@material-ui/core/Button';
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
 
 const Footer = () =>(
      
@@ -13,6 +13,7 @@ const Footer = () =>(
                     Copyright © 2019 | Leonel Garcia
                 </div>
                 <SocialIcons size={'md'}/>
+                
             </div>
          </footer>
 )
