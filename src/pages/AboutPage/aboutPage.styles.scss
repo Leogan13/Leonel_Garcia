@@ -1,14 +1,21 @@
-
-.about-page {
+.wrap-about-projects{
+ 
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 
+  0 6px 30px 5px rgba(0, 0, 0, 0.12), 
+  0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  
+  margin:30px;
   
 
-  padding:0.3rem;
+  box-sizing: border-box;
+  
+}
+.about-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(207, 190, 190, 0.9);
+  background: rgba(255, 255, 255, 0.8);
  
-  
 
   @media only screen and (max-width: 768px){
      
@@ -48,15 +55,14 @@
 
 
   .content-gridp {
-    
+    border-radius: 6px;
    
     margin: 0 0rem;
     background: rgba(255,255,255,0.9);
-    border: 5px solid whitesmoke;
+    
     padding: 1% 5%;
     box-sizing: border-box;
-   
-    border-radius: 10px;
+    
     align-self: stretch;
 
     @media only screen and (max-width: 768px){
@@ -67,7 +73,7 @@
     h1 {
     
       font-size: 3rem;
-      color:rgb(68, 68, 68);
+      color:#3c4858;
       
   
       @media only screen and (max-width: 768px){
@@ -109,14 +115,13 @@
   .content-grids {
     
     
-    
     background: rgba(255,255,255,0.9);
-    border: 5px solid whitesmoke;
-    padding: 1rem 1rem;
+   
+    padding: 1% 5%;
     box-sizing: border-box;
     margin-left: 0.3rem;
-   
-    border-radius: 10px;
+    margin: 0 0rem;
+    
     align-self: stretch;
 
     
@@ -128,8 +133,8 @@
 
     h1{
       color:rgb(241, 127, 26);
-    
-      margin: 0.5rem 1rem;
+      
+      
       text-align: center;
       font-size: 3rem;
       

@@ -1,0 +1,75 @@
+
+.main-directory{
+  
+  min-height: 85vh;
+  display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  
+ 
+ 
+  
+  
+  
+
+
+
+   h1 {
+    
+    font-size: 3rem;
+    margin: 2% 0 5% 0;
+    color:#3c4858;
+    text-align: center;
+   
+    @media only screen and (max-width: 768px){
+      font-size: 2rem;
+      margin: 10% 10% 5% 10%;
+      }
+   
+  }
+}
+
+
+.directory-container{
+
+    flex: auto;
+    
+  
+    background: rgba(255,255,255,0.8);
+    
+    padding: 1% 5%;
+    box-sizing: border-box;
+    border: 3px solid white;
+    
+
+    @media only screen and (max-width: 768px){
+      margin:0;
+      }
+    
+}
+
+.directory-menu {
+  
+
+ 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+ 
+
+ 
+  
+
+  @media only screen and (max-width: 1400px) {
+    
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  
+
+}

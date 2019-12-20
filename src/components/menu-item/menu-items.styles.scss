@@ -1,0 +1,80 @@
+
+.container{
+    margin-bottom: 2rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width: 768px){
+           flex-direction: column;
+            
+    }
+}
+
+.tech-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px;
+    padding:0px;
+}
+
+li{
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid #22262a;
+    background: white;
+    color: rgba(17, 7, 7, 0.8);
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    @media only screen and (max-width: 768px){
+        font-size: 0.8rem;
+       
+    }
+}
+
+    
+
+.content{
+    display: flex;
+    flex-direction: column;
+    h3{
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    p{
+        @media only screen and (max-width: 768px){
+               font-size: 0.8rem;
+           
+       }
+    }
+ }
+
+.img-content{
+    display: flex;
+    align-self: center;
+   margin-right: 2rem;
+
+   @media only screen and (max-width: 768px){
+    margin-right: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    }
+
+    img{
+        
+        height: 400px;
+        width: 800px;
+
+        @media only screen and (max-width: 768px){
+                height: 200px;
+                width: 300px;
+               
+            
+            }
+    }
+ }
+ 

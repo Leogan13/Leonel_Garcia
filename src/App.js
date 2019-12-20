@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from './components/header/header.component'
+import Header from './components/headerT/header.component'
 import LandingPage from './pages/landingPage/landingPage.component'
 import './App.css';
 import AboutPage from './pages/AboutPage/aboutPage.component'
 import Directory from './components/directory/directory.component'
-import Footer from './components/footer/footer.component'
-import DenseAppBar from './components/testcomp/navbart'
+import Footer from './components/footerT/footer.component'
+
+
+
 
 
 
@@ -19,8 +21,8 @@ class App extends React.Component {
           <Header/>
           <LandingPage/>
           <AboutPage/>
-          <Directory/>
           <Footer/>
+          
       </div>
   );
   }

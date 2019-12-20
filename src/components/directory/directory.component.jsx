@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MenuItem from '../menu-item/menu-item.component';
+
 
 import './directory.styles.scss';
 import Project1 from '../utils/projects/project11.PNG';

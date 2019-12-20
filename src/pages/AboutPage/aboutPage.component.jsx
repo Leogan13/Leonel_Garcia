@@ -2,19 +2,19 @@ import React from 'react';
 import './aboutPage.styles.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faReact, faCss3, faHtml5, faJs, faNode, faSass, faGithubAlt, faNpm, faStripe} from '@fortawesome/free-brands-svg-icons'
-
+import Directory from 'components/directoryT/directory.component'
 const AboutPage = (props, context) => {
  
 
   return (
-      
+      <div className="wrap-about-projects">
         <div className="about-page">
           <div className="content-gridp">
             <h1>About me </h1>
             <div className="about-wrapper">
               <div className="about-content">
                 <p>
-                Hello again, I’m Leonel Garcia a web developer from Panama, I consider myself someone that is always learning, you can call me a “forever student”, 
+                Hello, I’m Leonel Garcia a web developer from Panama, I consider myself someone that is always learning, you can call me a “forever student”, 
                 combined with the fact that I love building things and helping others lead me to choose a career related with technology in this case computer science. 
                 </p>
                 <p>
@@ -41,8 +41,10 @@ const AboutPage = (props, context) => {
               <i className="fa-stripe"><FontAwesomeIcon icon={faStripe} size="3x"></FontAwesomeIcon></i>
             </div>
           </div>
+          
         </div>
-        
+        <Directory/>
+      </div>
   );
 };
 

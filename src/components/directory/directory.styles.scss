@@ -1,4 +1,4 @@
-
+/*
 .main-directory{
   
   min-height: 85vh;
@@ -6,7 +6,7 @@
 	flex: 0 1 auto;
 	flex-direction: column;
   justify-content: center;
-  
+  background: rgba(255, 255, 255, 0.8);
   
  
  
@@ -19,8 +19,9 @@
    h1 {
     
     font-size: 3rem;
-    margin: 5% 0 0% 0;
-    color:rgb(68, 68, 68);
+    margin: 2% 0 0% 0;
+    color:#3c4858;
+    text-align: center;
    
     @media only screen and (max-width: 768px){
       font-size: 2rem;
@@ -73,3 +74,4 @@
   
 
 }
+*/
