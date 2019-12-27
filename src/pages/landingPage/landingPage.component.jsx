@@ -1,8 +1,7 @@
 import React from 'react';
 import SocialIcons from '../../components/SocialIcons/SocialIcons.jsx';
 import './landingPage.styles.scss'
-import { ReactComponent as Linkedin } from '../../components/utils/svg/linkedin.svg';
-import { ReactComponent as Github } from '../../components/utils/svg/github-logo.svg';
+
 
 
 const LandingPage = () =>{

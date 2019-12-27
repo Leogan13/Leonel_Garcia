@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTwitter, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 
 const SocialIcons = ({size}) => {

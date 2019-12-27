@@ -49,7 +49,7 @@ class Header extends React.Component {
                 Projects
               </div>
               <div className="menu__item">
-                  <a  href="https://drive.google.com/open?id=1vHtYdc-zKYGFdvL5GJYdKhndgroRUebw" target="_blank">Resume</a>
+                  <a  href="https://drive.google.com/open?id=1vHtYdc-zKYGFdvL5GJYdKhndgroRUebw" target="_blank" rel="noopener noreferrer">Resume</a>
               </div>
             </div>
         </nav>

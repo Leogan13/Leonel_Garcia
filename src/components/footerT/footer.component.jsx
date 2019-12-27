@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.styles.scss';
 import SocialIcons from '../SocialIcons/SocialIcons'
-import Button from '@material-ui/core/Button';
+
 
 
 

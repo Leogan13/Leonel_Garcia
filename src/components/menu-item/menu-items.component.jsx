@@ -2,7 +2,8 @@ import React from 'react';
 import './menu-items.styles.scss';
 
 
-const MenuItems = ({imageUrl, title, description, tech}) =>(
+
+const MenuItems = ({imageUrl, title, description, tech, demo, code}) =>(
 
    <div className="container">
        <div className="card">
@@ -21,6 +22,11 @@ const MenuItems = ({imageUrl, title, description, tech}) =>(
                 <p>
                     {description}
                 </p>
+                <div className="link-group">
+                  <a href={`${code}`}  target="_blank" rel="noopener noreferrer">View Demo</a>
+                  <a href={`${code}`}  target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+                
             </div>
        </div>
    </div>
