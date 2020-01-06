@@ -23,7 +23,7 @@ const MenuItems = ({imageUrl, title, description, tech, demo, code}) =>(
                     {description}
                 </p>
                 <div className="link-group">
-                  <a href={`${code}`}  target="_blank" rel="noopener noreferrer">View Demo</a>
+                  <a href={`${demo}`}  target="_blank" rel="noopener noreferrer">View Demo</a>
                   <a href={`${code}`}  target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
                 

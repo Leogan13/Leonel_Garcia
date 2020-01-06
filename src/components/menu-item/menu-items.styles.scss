@@ -1,6 +1,13 @@
 
 .container{
     margin-bottom: 6rem;
+    box-sizing: border-box;
+   
+
+    @media only screen and (max-width: 768px){
+       border: none;
+         
+ }
 
     
 }

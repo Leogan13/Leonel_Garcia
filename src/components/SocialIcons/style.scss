@@ -13,7 +13,7 @@
 
   @media only screen and (max-width: 768px) {
     font-size: 1.5rem;
-
+    
   
   }
 
@@ -34,7 +34,12 @@
 
   a {
     padding: 0 0.625rem;
- 
+
+    @media only screen and (max-width: 768px) {
+      padding:0 0.3rem;
+      
+    
+    }
 
     &.devto svg {
       margin-bottom: -0.25rem;

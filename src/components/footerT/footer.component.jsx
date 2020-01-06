@@ -10,8 +10,9 @@ const Footer = () =>(
         <footer>
             <div className='footer-container'>
                 <div className="signature">
-                    Copyright © 2019 | Leonel Garcia
+                    Copyright © 2019 | Leonel Garcia | email: leogan1399@gmail.com
                 </div>
+                
                 <SocialIcons size={'md'}/>
                 
             </div>

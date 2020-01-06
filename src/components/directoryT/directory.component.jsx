@@ -3,7 +3,7 @@ import React from 'react';
 
 
 import './directory.styles.scss';
-import Project1 from '../utils/projects/clothing_image.png';
+import Project1 from '../utils/projects/clothing_1.png';
 import Project2 from '../utils/projects/project22.PNG';
 import Project3 from '../utils/projects/portfolio_project.PNG';
 import MenuItems from '../menu-item/menu-items.component';
@@ -30,7 +30,7 @@ class Directory extends React.Component {
           id: 2,  
           description: 'Simple App that implements clarifai API to recognize faces in an image, it implements user logging, the server was built with node and express while postgresSQL was used for storage and administration of the users. This app is a learning material from the Complete Web Developer Course: Zero to Mastery instructed by Andrei Neagoie.',
           tech: ["Html","Css","Javascript", "React","Node.js","Express.js", "PostgreSQL",],
-          demo: "",
+          demo: "http://smart-smart-brain.herokuapp.com",
           code: "https://github.com/Leogan13/Smart-brain"
         },
         {
