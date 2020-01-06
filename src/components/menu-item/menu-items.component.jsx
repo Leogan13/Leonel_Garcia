@@ -26,7 +26,6 @@ const MenuItems = ({imageUrl, title, description, tech, demo, code}) =>(
                   <a href={`${demo}`}  target="_blank" rel="noopener noreferrer">View Demo</a>
                   <a href={`${code}`}  target="_blank" rel="noopener noreferrer">View Code</a>
                 </div>
-                
             </div>
        </div>
    </div>
