@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Leonel_Garcia/static/css/main.cf0f8da9.chunk.css",
+    "main.js": "/Leonel_Garcia/static/js/main.41fa4b31.chunk.js",
+    "main.js.map": "/Leonel_Garcia/static/js/main.41fa4b31.chunk.js.map",
+    "runtime~main.js": "/Leonel_Garcia/static/js/runtime~main.a6b47b53.js",
+    "runtime~main.js.map": "/Leonel_Garcia/static/js/runtime~main.a6b47b53.js.map",
+    "static/js/2.61cb3d40.chunk.js": "/Leonel_Garcia/static/js/2.61cb3d40.chunk.js",
+    "static/js/2.61cb3d40.chunk.js.map": "/Leonel_Garcia/static/js/2.61cb3d40.chunk.js.map",
+    "index.html": "/Leonel_Garcia/index.html",
+    "precache-manifest.574114da7ff36b5616bb00ee63361cd4.js": "/Leonel_Garcia/precache-manifest.574114da7ff36b5616bb00ee63361cd4.js",
+    "service-worker.js": "/Leonel_Garcia/service-worker.js",
+    "static/css/main.cf0f8da9.chunk.css.map": "/Leonel_Garcia/static/css/main.cf0f8da9.chunk.css.map",
+    "static/media/landingPage.styles.scss": "/Leonel_Garcia/static/media/background6.2b0d9370.jpg",
+    "static/media/clothing_1.png": "/Leonel_Garcia/static/media/clothing_1.ee185e05.png",
+    "static/media/portfolio_project.PNG": "/Leonel_Garcia/static/media/portfolio_project.c7b7b11c.PNG",
+    "static/media/project22.PNG": "/Leonel_Garcia/static/media/project22.1c41fc9f.PNG"
+  }
+}
