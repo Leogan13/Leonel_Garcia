@@ -21,8 +21,8 @@ class Directory extends React.Component {
           id: 1,
           description: 'E-commerce web app that simulates a clothing store. It has an easy to use shopping cart, implements stripe for payments and firebase for the backend. This app is a learning material from the Complete React Developer Course instructed by Andrei Neagoie.',
           tech: ["Html","Css", "Sass", "Javascript","React", "Redux", "Firebase"],
-          demo: "",
-          code: "https://github.com/Leogan13/Smart-brain"
+          demo: "https://ecommerce-clothing1.herokuapp.com/",
+          code: "https://github.com/Leogan13/Ecommerce-project"
         },
         {
           title: 'Smart-brain',
@@ -39,8 +39,8 @@ class Directory extends React.Component {
           id: 2,  
           description: "The idea behind this project was to create a simple website to showcase my skills and projects. I build almost everything from scratch with mostly React and Sass.",
           tech: ["Html", "Css", "Sass", "Javascript", "React"],
-          demo: "",
-          code: "https://github.com/Leogan13/Smart-brain"
+          demo: "https://leogan13.github.io/Leonel_Garcia/",
+          code: "https://github.com/Leogan13/Leonel_Garcia"
         }
         
       ]
