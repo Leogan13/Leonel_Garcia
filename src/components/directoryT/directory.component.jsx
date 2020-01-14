@@ -36,7 +36,7 @@ class Directory extends React.Component {
         {
           title: 'Web-Portfolio',
           imageUrl: Project3,
-          id: 2,  
+          id: 3,  
           description: "The idea behind this project was to create a simple website to showcase my skills and projects. I build almost everything from scratch with mostly React and Sass.",
           tech: ["Html", "Css", "Sass", "Javascript", "React"],
           demo: "https://leogan13.github.io/Leonel_Garcia/",
